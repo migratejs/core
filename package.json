@@ -1,0 +1,24 @@
+{
+  "name": "@migratejs/core",
+  "version": "0.0.0",
+  "description": "Core migrate functionality",
+  "author": "Wes Todd <wes@wesleytodd.com>",
+  "keywords": [
+    "migrate",
+    "database"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:migratejs/core.git"
+  },
+  "scripts": {
+    "test": "standard && mocha",
+    "prepublushOnly": "npm t"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "standard": "^12.0.1"
+  }
+}
